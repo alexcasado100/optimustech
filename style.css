@@ -1,0 +1,375 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 12%;
+}
+
+/* NAVIGATION */
+
+nav {
+  width: 1480px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .container {
+  width: 1280px;
+  height: 44px;
+  padding: 0px 32px;
+  left: 80px;
+  top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #8E2424;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+nav .navigation_action {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav .button_base .button1 {
+  padding-right: 30px;
+}
+
+nav .button_base .button2 {
+  background-color: #8E2424;
+  color: white;
+  padding: 10px 18px;
+  border: 1px solid #8E2424;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+/* HEADER */
+
+header {
+  width: 1440px;
+  height: 380px;
+}
+
+header #space_title {
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 96px;
+}
+
+header #space_title h1 {
+  font-size: 45px;
+  font-weight: 600;
+
+}
+
+header #space_title h4 {
+  color: #8E2424;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header #space_title p {
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+
+/* METRICS */
+
+section {
+  width: 1440px;
+  height: 288px;
+}
+
+section #space_statistic {
+  height: 192px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
+
+section #space_statistic .statistic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section #space_statistic .statistic span {
+  font-size: 55px;
+  font-weight: bold;
+  color: #8E2424;
+}
+
+section #space_statistic .statistic h4 {
+  font-size: 16px;
+}
+
+section #space_statistic .statistic p {
+  font-size: 16px;
+  color: gray;
+}
+
+/* VACANCIES */
+
+main {
+  width: 1440px;
+  height: 1798px;
+}
+
+main .talents {
+  width: 1280px;
+  height: 602px;
+  margin-left: 120px;
+  margin-top: 96px;
+}
+
+main .talents .talents_jobs {
+  width: 1215px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+main .talents .talents_jobs span {
+  width: 125px;
+  height: 28px;
+  color: #8E2424;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: rgb(255, 245, 245);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .talents .talents_jobs p {
+  color: gray;
+  font-size: 18px;
+}
+
+main .talents #photo {
+  width: 1260px;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+main .talents .open_vacancies {
+  width: 1280px;
+  height: 985px;
+  padding-top: 64px;
+}
+
+main .talents .open_vacancies .job1 {
+  width: 1280px;
+  height: 358px;
+  display: flex;
+  justify-content: center;
+}
+
+main .talents .open_vacancies .job2 {
+  width: 1280px;
+  height: 518px;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+main .talents .open_vacancies .job1 .description {
+  width: 768px;
+  height: 358px;
+}
+
+main .talents .open_vacancies .job2 .description {
+  width: 768px;
+  height: 518px;
+}  
+
+main .talents .open_vacancies .job1 .description h3,
+.job2 .description h3 {
+  font-weight: 500;
+  padding-bottom: 37px;
+}
+
+main .talents .open_vacancies .job1 .description
+.items_tech1 {
+  width: 768px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main .talents .open_vacancies .job2 .description
+.items_tech2 {
+  width: 768px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main .talents .open_vacancies .job1 .description
+.items_tech1 .tech, .job2 .description .items_tech2 .tech {
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding: 24px 24px 28px 24px;
+}
+
+main .talents .open_vacancies .job1 .description
+.items_tech1 .tech h3, .job2 .description .items_tech2 .tech h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+main .talents .open_vacancies .job1 .description
+.items_tech1 .tech p, .job2 .description .items_tech2 .tech p {
+  color: gray;
+  font-size: 15px;
+}
+
+/* DEPOSITIONS */
+
+article {
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+article #depositions {
+  width: 1216px;
+  height: 404px;
+  background-color: rgb(255, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article #depositions .depositions_collaborators {
+  width: 1088px;
+  height: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+article #depositions .depositions_collaborators span {
+  color: #8E2424;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+article #depositions .depositions_collaborators h1 {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+}
+
+article #depositions .depositions_collaborators img {
+  width: 56px;
+  height: 56px;
+}
+
+article #depositions .depositions_collaborators h5 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+article #depositions .depositions_collaborators h6 {
+  color: gray;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* FORM */
+
+footer {
+  width: 1440px;
+  height: 430px;
+  background-color: #F9FAFB;
+  padding: 96px 0px;
+}
+
+footer .contact {
+  width: 1440px;
+  height: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .contact p {
+  color: gray;
+  font-weight: normal;
+  font-size: 19px;
+}
+
+footer .contact input {
+  width: 325px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid silver;
+  font-size: 15px;
+  padding-left: 15px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  margin-right: 15px;
+  outline: none;
+}
+
+footer .contact a {
+  text-decoration: none;
+  background-color: #8E2424;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 40px;
+  border-radius: 8px;
+  font-weight: normal;
+}
+
+footer .contact h5 {
+  color: silver;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+footer .contact form {
+  display: flex;
+}
+
+/* RESPONSIVIDADE */
+
